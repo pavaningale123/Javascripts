@@ -21,3 +21,6 @@
 //     //console.log(q);
 // }
 // console.log(q);//ReferenceError: q is not defined
+
+
+
