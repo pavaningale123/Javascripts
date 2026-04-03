@@ -1,5 +1,5 @@
 // push 👉 Adds element at the end
-let arry=[12,23,34]
+let arry=[12,23,34,6]
 arry.push(56);
 console.log(arry);
 
