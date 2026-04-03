@@ -7,7 +7,7 @@ console.log(arry);
 arry.pop()
 console.log(arry)
 
-//shift 👉 Removes first element
+//shift 👉 Removes first element 
 arry.shift()
 console.log(arry)
 
