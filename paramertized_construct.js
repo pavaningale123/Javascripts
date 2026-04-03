@@ -4,4 +4,4 @@ class person{
         console.log(name)
     }
 }
-let b = new person("Pavan")
+let b = new person("Pavan") 
