@@ -21,4 +21,4 @@
 
 //We use const in Playwright to prevent reassignment of variables, 
 // making the code more predictable, safe, and less prone to bugs,
-//  especially since most values like page or locators do not need to change.
+//  especially since most values like page or locators do not need to change
