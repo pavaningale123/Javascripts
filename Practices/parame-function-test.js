@@ -14,4 +14,5 @@ console.log(result);
 
 //👉 console.log() is used to display output to the console, 
 // whereas return is used to send a value back from a function so it can be stored, 
-// reused, or used in further operations.
+// reused, or used in further operations. 
+// means -return gives back the value from a function so we can use it again.
