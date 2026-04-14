@@ -1,11 +1,20 @@
-class student
-{
-    static a=100;
-    static m1()
+// class student
+// {
+//     static a=100;
+//     static m1()
+//     {
+//         console.log("static method")
+//     }
+// }
+
+// console.log(student.a);
+// student.m1();
+
+class math{
+    static add(a,b)
     {
-        console.log("static method")
+        console.log(a+b);
     }
 }
-
-console.log(student.a);
-student.m1();
+let obj = new math()
+obj.add(3,4)
