@@ -1,15 +1,46 @@
-class employee
+//normal constructor
+
+
+class student
 {
-    constructor(eid,ename)
+    constructor()
     {
-        this.eid=eid;
-        this.ename=ename;
+        console.log("Pavan")
     }
-    getvalue()
+}
+let info = new student();
+
+// parameterized constructor
+
+class person
+{
+    constructor(name)
     {
-        console.log(this.eid,this.ename);
+        console.log(name)
     }
 }
 
-let emp = new employee(1,"pavan");
-emp.getvalue();
+let infor=new person("Pavan Ingale");
+
+// another example
+
+class students
+{
+constructor(sid,sname,sgrade)
+{
+    this.sid=sid;
+    this.sname=sname;
+    this.sgrade=sgrade;    
+}
+// constructor(sclass)
+// {
+//     this.sclass=sclass;
+       
+// }
+display()
+{
+    console.log(this.sid,this.sname,this.sgrade)
+}
+}
+let informa=new students(1011,"pavan","A",10)
+informa.display();
